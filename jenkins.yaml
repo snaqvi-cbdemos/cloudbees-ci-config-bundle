@@ -18,7 +18,7 @@ unclassified:
           scm:
             github:
               credentialsId: "github-sa"
-              repoOwner: "REPLACE_GITHUB_ORG"
+              repoOwner: "snaqvi-cbdemos"
               repository: "pipeline-library"
 credentials:
   system:
@@ -32,10 +32,10 @@ credentials:
       - gitHubApp:
           apiUri: "https://api.github.com"
           appID: "89390"
-          description: "CloudBees CI REPLACE_GITHUB_ORG GitHub App credential"
+          description: "CloudBees CI snaqvi-cbdemos GitHub App credential"
           id: "github-sa"
-          owner: "REPLACE_GITHUB_ORG"
+          owner: "snaqvi-cbdemos"
           privateKey: "${gitHubAppPrivateKey}"
 groovy:
-  - url: https://raw.githubusercontent.com/REPLACE_GITHUB_ORG/cloudbees-ci-config-bundle/main/groovy/create-pipeline-template-catalog.groovy
-  - url: https://raw.githubusercontent.com/REPLACE_GITHUB_ORG/cloudbees-ci-config-bundle/main/groovy/create-unhibernate-job.groovy
+  - url: https://raw.githubusercontent.com/snaqvi-cbdemos/cloudbees-ci-config-bundle/main/groovy/create-pipeline-template-catalog.groovy
+  - url: https://raw.githubusercontent.com/snaqvi-cbdemos/cloudbees-ci-config-bundle/main/groovy/create-unhibernate-job.groovy
